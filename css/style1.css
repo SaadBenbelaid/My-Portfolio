@@ -1,0 +1,42 @@
+#saad123{
+border-radius: 15px;
+position: relative;
+}
+
+
+
+/* #9dff00 */
+#rad123 {
+      font-size: 40px;
+      
+      background: linear-gradient(45deg, rgb(253, 253, 253), hsl(236, 94%, 48%), rgb(253, 253, 253) );
+      background-size: 300%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: animate 6s ease-in-out infinite;
+      
+      line-height: 0.9;
+  }
+  #rad123 span{
+    font-weight: 300;
+    font-family: inherit;
+    display: block;
+  }
+  @keyframes animate{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
+  
+
+
+  
+
+  
